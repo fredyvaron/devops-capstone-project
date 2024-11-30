@@ -43,4 +43,4 @@ jobs:
       - name: Run unit tests with Nose
         run: nosetests
         env:
-          URI_DE_BASE_DE_DATOS: "postgresql://postgres:pgs3cr3t@postgres:5432/testdb"
+          DATABASE_URI: "postgresql://postgres:pgs3cr3t@postgres:5432/testdb"
